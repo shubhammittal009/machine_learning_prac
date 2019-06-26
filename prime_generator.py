@@ -11,7 +11,6 @@ def sieve(ll,num):
             not_prime_num.add(f)
         if i>=ll:
             print(i,end=" ")
-            # prime_nums.append(i)
 
     return prime_nums
 
